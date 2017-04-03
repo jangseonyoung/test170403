@@ -1,0 +1,40 @@
+@CHARSET "EUC-KR";
+
+.tabWrap {
+	width: 900px;
+	height: 500px;
+}
+
+.tab_Menu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.tabMenu {
+	width: 150px;
+	margin: 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.tabMenu a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.current {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	border-bottom: hidden;
+}
+
+.tabPage {
+	width: 900px;
+	height: 245px;
+	float: left;
+	border: 1px solid black;
+}
